@@ -23,17 +23,22 @@ from kivymd.app import MDApp
 from kivymd.uix.label import MDLabel, MDIcon
 from datetime import datetime
 
+
+# creating child classes of screen
 class MainScreen(Screen):
     pass
 
 class MenuScreen(Screen):
     pass
 
+# creating a screen manager
 class Manager(ScreenManager):
     pass
 
+# made the window roughly phone sized to check how it will look there
 Window.size = (300,500)
 
+# .kv string to set out the layout and contents of the app 
 builder_str = '''
 ScreenManager:
     MenuScreen:
