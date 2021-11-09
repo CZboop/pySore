@@ -1,8 +1,6 @@
 import cv2
 import random
 import numpy as np
-import PIL
-from PIL import Image
 import matplotlib
 from matplotlib import cm
 import threading
